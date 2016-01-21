@@ -36,7 +36,11 @@ class BaseController extends Object
     {
         $this->view = $view;
         ob_start();
-        include $this->applicationPath.'/views/layouts/'.$this->layout.'.php';
+        if(!file_exists($this->applicationPath.'/views/layouts/'.$this->layout.'.php')) {
+            include dirname(__FILE__).'/../views/layouts/'.$this->layout.'.php';
+        } else {
+            include $this->applicationPath . '/views/layouts/' . $this->layout . '.php';
+        }
         ob_end_flush();
     }
 
