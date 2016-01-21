@@ -23,6 +23,7 @@ class ErrorController extends BaseController
         switch ($exceptionCode){
             case 404 : {
                 Response::sendHeader("HTTP/1.0 404 Not Found");
+                break;
             }
         }
     }
