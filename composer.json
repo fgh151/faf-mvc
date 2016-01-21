@@ -1,0 +1,14 @@
+{
+    "name": "fgorsky/faf-mvc",
+    "description": "Framework core",
+    "homepage": "http://openitstudio.ru",
+    "type": "Library",
+    "license": "GPL v3",
+    "authors": [
+        {
+            "name": "Fedor B Gorsky",
+            "email": "fedor@support-pc.org"
+        }
+    ],
+    "require": {}
+}
