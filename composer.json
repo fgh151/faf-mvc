@@ -1,5 +1,5 @@
 {
-    "name": "fgorsky/faf-mvc",
+    "name": "mvc",
     "description": "Framework core",
     "homepage": "http://openitstudio.ru",
     "type": "Library",
@@ -12,6 +12,6 @@
     ],
     "require": {},
     "autoload": {
-        "psr-4": {"fgorsky\\faf-mvc\\": ""}
+        "psr-4": {"mvc\\": ""}
     }
 }
