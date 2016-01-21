@@ -1,5 +1,5 @@
 {
-    "name": "mvc",
+    "name": "fgorsky/faf-mvc",
     "description": "Framework core",
     "homepage": "http://openitstudio.ru",
     "type": "Library",
