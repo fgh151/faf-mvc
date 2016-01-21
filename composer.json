@@ -10,5 +10,8 @@
             "email": "fedor@support-pc.org"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {"mvc\\": ""}
+    }
 }
